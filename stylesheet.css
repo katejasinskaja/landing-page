@@ -160,3 +160,13 @@ h1 {
     font-weight: bold;
     font-size: 18px;
 }
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+.copyright {
+    color: white;
+}
