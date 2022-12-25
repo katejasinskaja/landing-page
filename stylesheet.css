@@ -52,11 +52,11 @@ body {
     color: #E5E7EB;
     display: block;
 }
-button {
+button, .othertext {
     background-color: #3882F6;
     color: #F9FAF8;
-    border-radius: 3px;
-    width: 90px;
+    border-radius: 5px;
+    width: 100px;
     height: 25px;   
 }
 #first {
@@ -117,10 +117,6 @@ h1 {
     padding-left: 250px;
     padding-top: 70px;
     padding-bottom: 70px;
-    
-    
-
-
 }
 .quote {
     font-size: 36px;
@@ -135,4 +131,32 @@ h1 {
     font-weight: bold;
     font-size: 22px;
     margin-top: 0px;
+}
+.fourth-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.othertext {
+    width: 900px;
+    height: 100px;
+    border: none;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 250px;
+
+}
+#product {
+    display: block;
+}
+#second {
+    border-color: #E5E7EB;
+    border-width: 2px;
+}
+.action-header {
+    font-weight: bold;
+    font-size: 18px;
 }
